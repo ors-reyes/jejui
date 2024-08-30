@@ -1,0 +1,71 @@
+header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 1;
+}
+.imgFnd{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../torrejejui/src/1-Header\ -\ jejui.svg);
+    background-size: 130%;
+    background-position: -130% 100%;
+    background-repeat: no-repeat;
+}
+.imgFnd object{
+    width: 50%;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    transform: translateY(-25%);
+}
+@media screen and (min-width: 768px) {
+    .logo{
+        width: 30%;
+        left: 35%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .logo{
+        width: 30%;
+        top: 25%;
+        left: 20%;
+    }
+    .imgFnd{
+        background-size: 63%;
+        background-position: 100% 100%;
+    }
+    .imgFnd object{
+        width: 20%;
+        left: 75%;
+        bottom: 25%;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .imgFnd{
+        background-size: 51%;
+    }
+    .imgFnd object{
+        width: 15%;
+        left: 80%;
+        bottom: 25%;
+    }
+}
+@media screen and (min-width: 1900px) {
+    .logo{
+        width: 20%;
+        top: 25%;
+        left: 25%;
+    }
+}
+@media screen and (min-width: 2560px) {}

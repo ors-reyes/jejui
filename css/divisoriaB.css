@@ -1,0 +1,36 @@
+.divisoriaB{
+    width: 90%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow:inset 0 0 5px rgba(255, 255, 255, 0.5);
+    margin: 85px 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.divisoriaB h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #AD933F;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.divisoriaB h2 strong{
+    font-weight: 900;
+}
+@media screen and (min-width: 768px) {
+    .divisoriaB h2{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1440px) {
+    .divisoriaB h2{
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 2560px) {}

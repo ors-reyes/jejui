@@ -1,0 +1,111 @@
+.ver3d{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .paneoI{
+    position: relative;
+    width: 60%;
+    transition: all 0.5s ease;
+}
+.paneoI:hover{
+    transform: perspective(250px) 
+                rotateX(10deg)
+                translateY(-5%)
+                translateZ(0)
+                ;
+}
+.paneoI::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom, 
+        transparent 10%,
+        rgba(0,0,0,0.5) 50%,
+        rgba(0,0,0,0.5) 95%
+        );
+        opacity: 0;
+        transition: all 0.5s ease;
+}
+.paneoI:hover::before{
+    opacity: 1;
+}
+.paneoI:hover img:last-child{
+    opacity: 1;
+    transform: translateY(10%);
+}
+.paneoI img:first-child{
+    box-shadow: 0 60px 60px -60px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+}
+.paneoI img:last-child{
+    position: absolute;
+    width: 13%;
+    top: 48%;
+    left: 43%;
+    transition: all .5s ease;
+    opacity: 0;
+} */
+.paneoI{
+    position: relative;
+    width: 60%;
+    transition: all 0.5s ease;
+    transform: perspective(250px) 
+                rotateX(10deg)
+                translateY(-5%)
+                translateZ(0)
+                ;
+}
+.paneoI::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom, 
+        transparent 10%,
+        rgba(0,0,0,0.5) 50%,
+        rgba(0,0,0,0.5) 95%
+        );
+        opacity: 1;
+        transition: all 0.5s ease;
+}
+/* .paneoI:hover::before{
+    opacity: 1;
+} */
+/* .paneoI:hover img:last-child{
+    opacity: 1;
+    transform: translateY(10%);
+} */
+.paneoI img:first-child{
+    box-shadow: 0 60px 60px -60px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+}
+.paneoI img:last-child{
+    position: absolute;
+    width: 13%;
+    top: 48%;
+    left: 43%;
+    transition: all .5s ease;
+    opacity: 1;
+    transform: translateY(10%);
+}
+.vAaside{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

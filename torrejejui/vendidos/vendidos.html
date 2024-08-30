@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departamentos Vendidos</title>
+    <link rel="stylesheet" href="vendidos.css">
+    <script defer type="module" src="vendidos.js"></script>
+</head>
+<body>
+    <div class="contenedorBotones"></div>
+    <template class="pisosVendidos">
+        <div class="wrapper">
+            <input id="chkbox" type="checkbox">
+            <label for="chkbox">902</label>
+        </div>
+    </template>
+    <dialog class="modal">
+        <button class="vender">Vender</button>
+        <button class="cancelar">Cancelar</button>
+    </dialog>
+    <dialog class="wait">
+        <h2>Actualizando</h2>
+    </dialog>
+    <div class="bntGuardar">
+        <div class="tipologias">
+            <button class="todos">Todos</button>
+            <button class="monoambiente">Monoambiente</button>
+            <button class="unDormitorio">1 Dormitorio</button>
+            <button class="dosDormitorio">2 Dormitorios</button>
+        </div>
+    </div>
+</body>
+</html>
