@@ -16,6 +16,10 @@
     /* background: rgba(0, 0, 0, 0.1); */
     width: 70%;
     height: 100%;
+    
+}
+.tipo{
+    display: none;
 }
 .disabled{
     pointer-events: none;opacity: 0.3;
