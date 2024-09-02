@@ -24,7 +24,7 @@
 @media screen and (min-width: 1024px) {
     .ubicacion{
         flex-direction: row;
-        height: 70vh;
+        height: 100vh;
         justify-content: center;
         padding-top: 100px;
         padding-bottom: 100px;
@@ -41,6 +41,13 @@
     }
 }
 @media screen and (min-width: 1440px) {
+    .ubicacion{
+        flex-direction: row;
+        height: 70vh;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
     .ubicacion .object{
         margin-right: 150px;
     }

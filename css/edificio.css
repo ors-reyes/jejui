@@ -12,9 +12,9 @@
     width: 100%;
     height: 100%;
 }
-.relleno2{
-    background: rgba(0, 0, 0, 0.1);
-    width: 100%;
+.detalles{
+    /* background: rgba(0, 0, 0, 0.1); */
+    width: 70%;
     height: 100%;
 }
 .disabled{
@@ -98,13 +98,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: row;
     }
     #edificio{
-        width: 45%;
-        height: 90%;
-    }
-    .contenedorEdificio .relleno2{
-        width: 45%;
+        width: 50%;
         height: 100%;
+    }
+    .detalles{
+        width: 36%;
+        /* height: 100%; */
     }
 }
