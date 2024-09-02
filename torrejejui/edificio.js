@@ -300,7 +300,7 @@ window.addEventListener("load", async()=>{
     
         var url = "https://wa.me/" + phonenumber + "?text="
         +"Mi nombre es :  "+name+"%0a"
-        +"Me podrian enviar más información sobre el departamento N°: "+departamentoNumero+" %0a"
+        +"Me podrían enviar más información sobre el departamento N°: "+departamentoNumero+" %0a"
         +"%0a"
         +"Gracias";
         window.open(url, '_blank').focus();
