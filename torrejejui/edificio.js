@@ -2,6 +2,7 @@ import {getTasks} from './vendidos/firebase.js'
 window.addEventListener("load", async()=>{
     const whatsapp = document.querySelector(".whatsapp")
     const tipo = document.querySelector(".tipo")
+    const tipo2 = document.querySelector(".tipo2")
     const edificio = document.getElementById("edificio").contentDocument
     console.log(edificio)
     const btnMonoAmbiente = edificio.querySelector(".btnMonoAmbiente")
@@ -53,6 +54,7 @@ window.addEventListener("load", async()=>{
     let click0 = true
     const btnReset = ()=>{
         tipo.style.display="none"
+        tipo2.style.display="block"
         pisosB.forEach(piso=>piso.classList.remove("dtosEntrada"))
         pisosB.forEach(piso=>piso.classList.remove("dtosSalida"))
         pisosC.forEach(piso=>piso.classList.remove("dtosEntrada"))
@@ -93,6 +95,7 @@ window.addEventListener("load", async()=>{
         btnDosDormitorios.classList.add("moverBtns")
         pisosBtnsMono.classList.add("display")
         tipo.style.display="block"
+        tipo2.style.display="none"
     }
     const btnUn = ()=>{
         btnReset()

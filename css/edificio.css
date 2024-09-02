@@ -21,6 +21,9 @@
 .tipo{
     display: none;
 }
+.tipo2{
+    transform: translateY(100px);
+}
 .disabled{
     pointer-events: none;opacity: 0.3;
 }
